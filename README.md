@@ -1,14 +1,11 @@
-# Welcome to your CDK TypeScript project
+# Welcome to Nexus: Polyglot AWS Multi-Tenant Package
 
-This is a blank project for CDK development with TypeScript.
+This service provides secure, multi-tenant summarization via API, backed by Amazon Bedrock.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+* Authentication: Cognito + JWT
+* Multi-tenancy: DynamoDB
+* Prompt Templates: S3
+* Caching: Redis (ElastiCache)
+* Infrastructure as Code: AWS CDK (TypeScript)
+* Lambda code: Python 3.11
+See `/infrastructure/README.md` for infra details. See `/services/summarizer/README.md` for handler/local development.

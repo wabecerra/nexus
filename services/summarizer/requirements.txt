@@ -1,0 +1,12 @@
+# AWS SDK (already in Lambda runtime but pinned for local dev)
+boto3>=1.34.0
+botocore>=1.34.0
+
+# Structured logging & utilities for Lambda best‑practices
+aws-lambda-powertools>=2.30.0
+
+# Redis client for Python 3
+redis>=5.0.0
+
+# Optional HTTP utils (remove if not used)
+requests>=2.31.0

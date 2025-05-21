@@ -1,0 +1,19 @@
+{
+  "name": "aws-summarizer-infrastructure",
+  "version": "1.0.0",
+  "description": "AWS CDK Infrastructure for Nexus Service",
+  "main": "bin/deploy.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.140.0",
+    "constructs": "^10.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.4.2"
+  }
+}

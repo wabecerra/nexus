@@ -1,8 +1,22 @@
+# ---- Node & TypeScript ----
+node_modules/
+# compiled JS/TS artifacts
 *.js
-!jest.config.js
 *.d.ts
-node_modules
 
-# CDK asset staging directory
-.cdk.staging
-cdk.out
+# CDK build output
+cdk.out/
+.cdk.staging/
+
+# Python artifacts
+**/__pycache__/
+*.py[cod]
+.env
+
+# VSCode & IDE
+.vscode/
+.DS_Store
+.idea/
+
+# OS / misc
+Thumbs.db
